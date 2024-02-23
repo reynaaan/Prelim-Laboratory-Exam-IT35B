@@ -13,7 +13,7 @@ const HelloWorld = () => {
         source={{
           uri: 'https://lh3.googleusercontent.com/proxy/RoPcmEVMBSgWrFW1o1e2zAMssiAvZHDxzHM_U2JaCEBn7r8nLUxiauFGk5Oy_Y8CJqOr0OZSJ9V3tJ_Mj4ITBJNOuwFT=s0-d',
         }}
-        style={{ width: 200, height: 200, resizeMode: 'contain' }}
+        style={{ width: 200, height: 200, resizeMode: 'contain', marginTop: 50, marginBottom: 20 }}
       />
       <Text style={{ textAlign: 'center', fontSize: 46, fontWeight: 'bold'}}>Helloooooo, Wooooorld and everything!</Text>
     </View>

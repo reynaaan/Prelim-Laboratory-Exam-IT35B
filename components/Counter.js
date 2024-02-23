@@ -27,7 +27,7 @@ class Counter extends Component {
   render() {
     return (
       <View>
-        <Text style={{ textAlign: 'center', fontSize: 18, fontWeight: 'semibold' }}>Count: {this.state.count}</Text>
+        <Text style={{ textAlign: 'center', fontSize: 18, fontWeight: 'semibold', color: 'white' }}>Count: {this.state.count}</Text>
         <Button title="+" onPress={this.incrementCount} color="orange"/>
         <Button title="-" onPress={this.decrementCount} color="orange"/>
         <Button title="Reset" onPress={this.resetCount} color="gray"/>
